@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="face.png" type="image/png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Islamic Tasbih Pro</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">📿 Digital Tasbih</h1>
+
+        <!-- SubhanAllah -->
+        <div class="card" data-key="subhanallah" data-max="5000">
+            <h2>SubhanAllah</h2>
+
+            <div class="progress-ring">
+                <svg width="140" height="140">
+                    <circle class="bg" cx="70" cy="70" r="60"></circle>
+                    <circle class="progress" cx="70" cy="70" r="60"></circle>
+                </svg>
+                <div class="count"><span>0</span></div>
+            </div>
+
+            <div class="max-text">/ <b class="max"></b></div>
+            <button class="tap-btn">Tap</button>
+            <button class="reset-btn">Reset</button>
+        </div>
+
+        <!-- Alhamdulillah -->
+        <div class="card" data-key="alhamdulillah" data-max="5000">
+            <h2>Alhamdulillah</h2>
+
+            <div class="progress-ring">
+                <svg width="140" height="140">
+                    <circle class="bg" cx="70" cy="70" r="60"></circle>
+                    <circle class="progress" cx="70" cy="70" r="60"></circle>
+                </svg>
+                <div class="count"><span>0</span></div>
+            </div>
+
+            <div class="max-text">/ <b class="max"></b></div>
+            <button class="tap-btn">Tap</button>
+            <button class="reset-btn">Reset</button>
+        </div>
+
+        <!-- Allahu Akbar -->
+        <div class="card" data-key="allahuakbar" data-max="5000">
+            <h2>Allahu Akbar</h2>
+
+            <div class="progress-ring">
+                <svg width="140" height="140">
+                    <circle class="bg" cx="70" cy="70" r="60"></circle>
+                    <circle class="progress" cx="70" cy="70" r="60"></circle>
+                </svg>
+                <div class="count"><span>0</span></div>
+            </div>
+
+            <div class="max-text">/ <b class="max"></b></div>
+            <button class="tap-btn">Tap</button>
+            <button class="reset-btn">Reset</button>
+        </div>
+
+        <!-- La ilaha illallah -->
+        <div class="card" data-key="lailahaillallah" data-max="5000">
+            <h2>La ilaha illallah</h2>
+
+            <div class="progress-ring">
+                <svg width="140" height="140">
+                    <circle class="bg" cx="70" cy="70" r="60"></circle>
+                    <circle class="progress" cx="70" cy="70" r="60"></circle>
+                </svg>
+                <div class="count"><span>0</span></div>
+            </div>
+
+            <div class="max-text">/ <b class="max"></b></div>
+            <button class="tap-btn">Tap</button>
+            <button class="reset-btn">Reset</button>
+        </div>
+    </div>
+
+    <!-- 🔊 Tasbih Sound -->
+    <audio id="clickSound"
+        src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_4017d1b4c3.mp3?filename=click-124467.mp3"></audio>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
